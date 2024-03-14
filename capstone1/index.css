@@ -1,0 +1,170 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+/* Navigation Bar Styles */
+.nav-logo {
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+    font-size: 1.8rem !important;
+    padding: 0 !important;
+}
+
+.toggle-rotate:hover {
+    transition: all 0.3s linear;
+    transform: rotate(90deg);
+}
+
+.toggle-rotate {
+    transition: all 0.3s linear;
+}
+
+nav {
+    box-shadow: 0 0 5px 0px #000;
+}
+
+/* Global Styles */
+* {
+    font-family: "Red Rose", serif;
+}
+
+.title {
+    letter-spacing: 0.5rem;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+}
+
+.social-item i {
+    font-size: 5rem;
+}
+
+/* Landing Section Styles */
+.font-orb {
+    font-family: "Orbitron", sans-serif;
+    color: white;
+    text-shadow:
+    2px 2px 2px #000,
+    -2px 2px 2px #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+}
+
+.landing-header {
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+
+.landing-name {
+    font-size: 3rem;
+}
+
+.landing-title {
+    font-size: 8rem;
+    line-height: 0.9;
+}
+
+.landing-img {
+    height: 300px !important;
+    width: fit-content !important;
+    display: block;
+    float: right;
+}
+
+.title-container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landing-btn {
+    width: fit-content !important;
+}
+
+/* Project Section Styles */
+#projects {
+    background-color: #121212;
+    color: white;
+}
+
+.card {
+    max-width: 540px;
+}
+
+.card-text {
+    max-height: 150px !important;
+    overflow: auto !important;
+}
+
+/* Contact Section Styles */
+.contact-container {
+    display: flex;
+    justify-content: center;
+}
+
+.social-item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+    text-decoration: none;
+    color: #121212;
+    transition: all 0.1s linear;
+}
+
+.social-item a i {
+    transition: all 0.1s linear;
+}
+
+.social-item a i:hover {
+    transition: all 0.1s linear;
+    transform: scale(1.1);
+}
+
+.social-item p {
+    margin-bottom: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.gmap {
+    width: 100%;
+}
+
+.btn-style {
+    background-color: #121212 !important;
+    color: #fff !important;
+    width: 100%;
+}
+
+.btn-style:hover {
+    background-color: #fff !important;
+    color: #121212 !important;
+}
+
+/* Tools Section Styles */
+#tools {
+    background-color: #121212;
+    color: white;
+}
+
+.icon-container img {
+    margin: 0.5rem;
+    transition: all 0.1s linear;
+}
+
+.icon-container img:hover {
+    transition: all 0.1s linear;
+    transform: scale(1.1);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #121212;
+    color: white;
+}

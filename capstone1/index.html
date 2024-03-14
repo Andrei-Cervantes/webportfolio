@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrei Cervantes | Portfolio</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/6fa484f5de.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation Bar Start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand nav-logo ms-md-5 ms-3" href="#landing">ANDREI</a>
+            <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon toggle-rotate"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav text-center ms-auto me-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#landing">Landing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tools">Tools</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation Bar End -->
+
+    <main>
+        <!-- Landing Section Start -->
+        <section id="landing" class="container d-flex justify-content-center flex-column">
+            <p class="landing-header text-center">Hi, my name is<span class="landing-name"> Andrei Cervantes </span>and I am a</p>
+            <div class="title-container">
+                <h1 class="landing-title text-center mb-0">Full Stack Web</h1> 
+                <h1 class="landing-title text-center mb-0 font-orb">Developer</h1>
+                <p class="text-left ps-5">based in Manila, Philippines</p>
+            </div>
+            
+            
+            <!-- Buttons: LinkedIn, Resume -->
+            
+            <div class="summary-container d-flex align-items-center flex-column-reverse flex-md-row gap-3 mb-5">
+                <div class="d-flex flex-column align-items-center">
+                    <p class="landing-text mt-3 text-justify text-md-left">I'm passionate about programming because it allows me to turn ideas into reality. I enjoy the challenge of problem-solving and using my skills to create things that make a difference. Whether it's building software, designing user interfaces, or solving complex puzzles, I'm always eager to take on new challenges and bring projects to life. Let's work together to make ideas happen!</p>
+                    <div class="landing-btn-container d-flex justify-content-center flex-column flex-md-row gap-3">
+                        <button class="btn btn-style landing-btn" onclick="window.open('https://www.linkedin.com/in/andrei-cervantes-b08166286/', '_blank')">
+                            <i class="fa-brands fa-linkedin"></i>
+                            LinkedIn
+                        </button>
+                        <button class="btn btn-style landing-btn" onclick="window.open('https://github.com/Andrei-Cervantes', '_blank')">
+                            <i class="fa-brands fa-github"></i>
+                            GitHub
+                        </button>
+                        <button class="btn btn-style landing-btn" onclick="window.open('./assets/resume-cervantes.pdf')">
+                            <i class="fa-solid fa-download"></i>
+                            Resume
+                        </button>
+                    </div>
+                </div>
+                <img src="./images/profile-pic.png" class="img-fluid rounded-circle landing-img" alt="">
+            </div>
+        </section>
+        <!-- Landing Section End -->
+
+        <!-- Projects Section Start -->
+        <section id="projects" class="container-fluid">
+            <h2 class="title pt-3 text-center">Projects</h2>
+            <!-- PADES Printing - HTML, CSS, JS, React, Bootstrap, Images and Icons used are from free platforms. Figma used for wireframing, hosted in GitHub Pages and domain from Hostinger -->
+            <div class="container d-flex flex-wrap pb-5 justify-content-around">
+                <div class="card m-2">
+                    <div class="row g-0">
+                        <div class="col-md-4 img-container d-flex align-items-center">
+                            <img src="./images/projects/pades.png" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">PADES Printing</h5>
+                                <p class="card-text">I developed a business website for PADES Printing using HTML, CSS, JavaScript, React, and Bootstrap. The website features images provided by the company and icons from free platforms like Icons8. Wireframing was done in Figma, and the website is hosted on GitHub Pages with a domain from Hostinger.</p>
+                                <div class="d-flex gap-2">
+                                    <button class="btn btn-style" onclick="window.open('https://padesprinting.com', '_blank')">Live Demo</button>
+                                    <button class="btn btn-style" onclick="window.open('https://github.com/Andrei-Cervantes/Project-1', '_blank')">Check Code</button>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nutri Forage - Android Studio, Java, Firebase. Figma used for wireframing. -->
+                <div class="card m-2">
+                    <div class="row g-0">
+                        <div class="col-md-4 img-container d-flex align-items-center">
+                            <img src="./images/projects/nutri-forage.png" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Nutri Forage</h5>
+                                <p class="card-text">This project highlights my skills in building Android apps using Java and XML, with Firebase for backend support. By using Figma for design, I created a user-friendly interface and integrated it seamlessly with Firebase.</p>
+                                <div class="d-flex gap-2">
+                                    <button class="btn btn-style" onclick="window.open('https://github.com/gekkkota/NutriForage', '_blank')">Check Code</button>
+                                    <button class="btn btn-style" onclick="window.open('https://drive.google.com/file/d/1eVHQhDLH4lMTrlljprErWvDB77qRRkb4/view?usp=sharing', '_blank')">Documentation</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Re- - Unity Engine, C#. Photoshop, Canva, and Wondershare Filmora are used for the assets. -->
+                <div class="card m-2">
+                    <div class="row g-0">
+                        <div class="col-md-4 img-container d-flex align-items-center">
+                            <img src="./images/projects/re.png" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Re-</h5>
+                                <p class="card-text">This project demonstrates my game development skills using Unity. I created a 2D maze game called 'Re-' where players journey through memories. I used assets made with Photoshop and Canva to enhance the game's visuals.</p>
+                                <button class="btn btn-style" onclick="window.open('https://www.youtube.com/watch?v=jN-CUOo5HxQ', '_blank')">Video Demo</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bookstore - MongoDB, Express JS, React JS, Node JS. Font Awesome for the icons. -->
+                <div class="card m-2">
+                    <div class="row g-0">
+                        <div class="col-md-4 img-container d-flex align-items-center">
+                            <img src="./images/projects/bookstore.png" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Bookstore App</h5>
+                                <p class="card-text">I built a bookstore app using MongoDB, Express JS, React JS, and Node JS (MERN stack). By testing APIs with Postman, I improved my full-stack web development skills. This project demonstrates my ability to create functional web applications from start to finish.</p>
+                                <button class="btn btn-style" onclick="window.open('https://github.com/Andrei-Cervantes/MERN-Bookstore', '_blank')">Check Code</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projects Section End -->
+
+        <!-- Contact Section Start -->
+        <section id="contact" class="container-fluid">
+            <h2 class="title pt-3 text-center">Contact</h2>
+            <!-- LinkedIn, Github, Email -->
+            <!-- Contact Form: Name, Email, Contact Number, Message -->
+            <div class="contact-container m-3">
+                <div class="social-item">
+                    <a href="https://www.linkedin.com/in/andrei-cervantes-b08166286/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <p class="d-none d-md-flex">andrei-cervantes</p>
+                    </a>
+                </div>
+                <div class="social-item">
+                    <a href="https://www.github.com" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        <p class="d-none d-md-flex">Andrei-Cervantes</p>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 my-4">
+                    <h3 class="text-center">Come Visit Me</h3>
+                    <iframe class="gmap px-4 px-md-0" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1930.716412158439!2d121.001639386518!3d14.57439562809952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1710377163900!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-6 my-4">
+                    <h3 class="text-center">Send Me A Message</h3>
+                    <form class="border border-dark p-md-5 p-3">
+                        <div class="mb-3">
+                            <label for="fullname" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="fullname" aria-describedby="nameHelp" required autocomplete>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required autocomplete>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="tel" class="form-control" id="phone" required autocomplete>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" style="height: 100px"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-secondary btn-style">Submit</button>
+                    </form>
+                </div>
+            </div>
+            
+        </section>
+        <!-- Contact Section End -->
+
+        <!-- Tools Section Start -->
+        <section id="tools" class="container-fluid text-center">
+            <h2 class="pt-3 title">Tools</h2>
+            <!-- Programming Languages: Java, Python -->
+            <div class="my-5">
+                <h3 class="mb-3">Programming Languages:</h3>
+                <div class="icon-container">
+                    <img src="./images/icons/icons8-java-144.png" alt="">
+                    <img src="./images/icons/icons8-python-144.png" alt="">
+                </div>
+            </div>
+
+            <!-- Web Development: HTML, CSS, JS, Bootstrap, React, MongoDB, Express, Node -->
+            <div class="my-5">
+                <h3 class="mb-3">Web Development:</h3>
+                <div class="icon-container">
+                    <img src="./images/icons/icons8-html-144.png" alt="">
+                    <img src="./images/icons/icons8-css-144.png" alt="">
+                    <img src="./images/icons/icons8-js-144.png" alt="">
+                    <img src="./images/icons/icons8-bootstrap-144.png" alt="">
+                    <img src="./images/icons/icons8-react-144.png" alt="">
+                    <img src="./images/icons/icons8-express-js-144.png" alt="">
+                    <img src="./images/icons/icons8-node-js-144.png" alt="">
+                </div>
+            </div>
+
+            <!-- Mobile Development: Android Studio, Firebase -->
+            <div class="my-5">
+                <h3 class="mb-3">Mobile Development:</h3>
+                <div class="icon-container">
+                    <img src="./images/icons/icons8-android-studio-144.png" alt="">
+                    <img src="./images/icons/icons8-firebase-144.png" alt="">
+                </div>
+            </div>
+
+            <!-- Other Tools: Arduino, Unity, VS Code, Figma, Wondershare Filmora, Canva -->
+            <div class="my-5">
+                <h3 class="mb-3">Other Tools:</h3>
+                <div class="icon-container">
+                    <img src="./images/icons/icons8-arduino-144.png" alt="">
+                    <img src="./images/icons/icons8-unity-144.png" alt="">
+                    <img src="./images/icons/icons8-vs-code-144.png" alt="">
+                    <img src="./images/icons/icons8-figma-144.png" alt="">
+                    <img src="./images/icons/icons8-filmora-144.png" alt="">
+                    <img src="./images/icons/icons8-canva-144.png" alt="">
+                </div>
+            </div>
+
+            <div>
+                Icons by <a target="_blank" href="https://icons8.com">Icons8</a>
+            </div>
+        </section>
+        <!-- Tools Section End -->
+    </main>
+
+    <footer class="text-center py-3">
+        <span class="mx-2">Andrei Cervantes</span>
+        <span class="mx-2">|</span>
+        <span class="mx-2">Copyright 2024</span>
+    </footer>
+
+    <!-- Bootstrap Link Start -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Bootstrap Link End -->
+</body>
+</html>
