@@ -43,8 +43,8 @@
     <!-- Navigation Bar End -->
 
     <main>
-        <!-- Landing Section Start -->
-        <section id="landing" class="container d-flex justify-content-center flex-column">
+        <!-- Landing Section Medium Start -->
+        <section id="landing" class="container-fluid d-none d-md-flex justify-content-center flex-column">
             <p class="landing-header text-center">Hi, my name is<span class="landing-name"> Andrei Cervantes </span>and I am a</p>
             <div class="title-container">
                 <h1 class="landing-title text-center mb-0">Full Stack Web</h1> 
@@ -76,7 +76,40 @@
                 <img src="./images/profile-pic.png" class="img-fluid rounded-circle landing-img" alt="">
             </div>
         </section>
-        <!-- Landing Section End -->
+        <!-- Landing Section Medium End -->
+
+        <!-- Landing Section XS Start -->
+        <section id="landing-xs" class="container-fluid d-flex d-md-none justify-content-center flex-column">
+            <p class="landing-header-xs text-center">Hi, my name is<span class="landing-name-xs"> Andrei Cervantes </span>and I am a</p>
+            <div class="title-container-xs">
+                <h1 class="landing-title-xs text-center mb-0">Full Stack Web</h1> 
+                <h1 class="landing-title-xs text-center mb-0 font-orb">Developer</h1>
+                <p class="text-left ps-5 mt-2">based in Manila, Philippines</p>
+            </div>
+
+
+            <div class="summary-container d-flex align-items-center flex-column-reverse flex-md-row gap-3 mb-5">
+                <div class="d-flex flex-column align-items-center">
+                    <p class="landing-text mt-3 text-justify text-md-left">I'm passionate about programming because it allows me to turn ideas into reality. I enjoy the challenge of problem-solving and using my skills to create things that make a difference. Whether it's building software, designing user interfaces, or solving complex puzzles, I'm always eager to take on new challenges and bring projects to life. Let's work together to make ideas happen!</p>
+                    <div class="landing-btn-container d-flex justify-content-center flex-row gap-3">
+                        <button class="btn btn-style landing-btn" onclick="window.open('https://www.linkedin.com/in/andrei-cervantes-b08166286/', '_blank')">
+                            <i class="fa-brands fa-linkedin"></i>
+                            LinkedIn
+                        </button>
+                        <button class="btn btn-style landing-btn" onclick="window.open('https://github.com/Andrei-Cervantes', '_blank')">
+                            <i class="fa-brands fa-github"></i>
+                            GitHub
+                        </button>
+                        <button class="btn btn-style landing-btn" onclick="window.open('./assets/resume-cervantes.pdf')">
+                            <i class="fa-solid fa-download"></i>
+                            Resume
+                        </button>
+                    </div>
+                </div>
+                <img src="./images/profile-pic.png" class="img-fluid rounded-circle landing-img" alt="">
+            </div>
+        </section>
+        <!-- Landing Section XS End -->
 
         <!-- Projects Section Start -->
         <section id="projects" class="container-fluid">

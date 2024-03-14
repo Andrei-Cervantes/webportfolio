@@ -59,12 +59,26 @@ p {
     margin-bottom: 0;
 }
 
+.landing-header-xs {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+
 .landing-name {
     font-size: 3rem;
 }
 
+.landing-name-xs {
+    font-size: 1.5rem;
+}
+
 .landing-title {
     font-size: 8rem;
+    line-height: 0.9;
+}
+
+.landing-title-xs {
+    font-size: 3.5rem;
     line-height: 0.9;
 }
 
