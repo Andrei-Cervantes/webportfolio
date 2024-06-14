@@ -119,6 +119,7 @@ p {
 .contact-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .social-item a {
